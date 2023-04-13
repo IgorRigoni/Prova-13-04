@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    background-color: #460046;
+}
+
+nav img{
+    margin-top: 1vw;
+    height: 100px;
+    margin-left: 5vw;
+
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #a762a7;
+    width: 50%;
+    height: 2vw;
+    margin-left: 45vw;
+    margin-top: -5vw;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+nav ul li{
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+header{
+    background-color: #460046;
+    padding: 70px;
+}
+
+#texto h1{
+    color: white;
+    margin-top: 2vw;
+}
+
+#texto p{
+    text-align: justify;
+    width: 50vw;
+    font-size: 15px;
+    margin-top: 1vw;
+    color: white;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    margin-top: 2vw;
+}
+
+main ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5vw;
+    cursor: pointer;
+}
+
+main ul li{
+    display: flex;
+    align-items: center;
+}
+
+main ul li:not(:nth-last-child(0)){
+    border-left: 5vw solid black;
+    height: 5vw;
+}
+
+main img{
+    margin-top: 5vw;
+    margin-left: 16vw;
+    height: 200px;
+}
+
+h3{
+    margin-left: 35vw;
+    margin-top: -10vw;
+}
+
+main p{
+    text-align: justify;
+    width: 40vw;
+    margin-left: 35vw;
+    margin-top: 1vw;
+}
+
+button{
+    margin-left: 50vw;
+    margin-top: 4vw;
+    background-color: #460046;
+    color: white;
+    border-radius: 10px;
+    border-style: none;
+    height: 2vw;
+    width: 6vw;
+    cursor: pointer;
+}
